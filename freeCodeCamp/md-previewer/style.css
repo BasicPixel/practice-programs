@@ -1,0 +1,16 @@
+#editor {
+  width: 100%;
+  min-height: 40vh;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+button {
+  margin: auto 0.2em;
+}
+
+#preview {
+  background-color: var(--background);
+  border-radius: 6px;
+  padding: 5px 10px;
+}

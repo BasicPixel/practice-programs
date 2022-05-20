@@ -1,0 +1,17 @@
+#root {
+  margin: 0 25vw;
+}
+
+#author {
+  text-align: end;
+}
+
+button {
+  margin: auto 0.2em;
+}
+
+@media screen and (max-width: 760px) {
+  #root {
+    margin: auto;
+  }
+}
