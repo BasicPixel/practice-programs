@@ -9,12 +9,28 @@ in which k is the gravitational constant and d is the distance between the bodie
 
 using namespace std;
 
+const double GRAVITATIONAL_CONSTANT = 6.67 / 100000000;
+
 int main()
 {
 
-    /*  */
+    double m1, m2, d;
 
-    cout << endl;
+    cout << "Enter the mass of the first body: ";
+    cin >> m1;
+
+    cout << "Enter the mass of the second body: ";
+    cin >> m2;
+
+    cout << "Enter the distance between the two bodies: ";
+    cin >> d;
+
+    double f = GRAVITATIONAL_CONSTANT * ((m1 * m2) / (d * d));
+
+    cout << "Force: " << f;
+
+    cout
+        << endl;
     cin.get();
     cin.clear();
 

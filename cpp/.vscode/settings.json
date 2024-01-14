@@ -3,6 +3,8 @@
     "**/*.html": "html",
     "**/requirements{/**,*}.{txt,in}": "pip-requirements",
     "**/templates/**/*.html": "django-html",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "iomanip": "cpp"
   }
 }

@@ -8,12 +8,25 @@ d)	Outputs the profit for producing milk.
 
 #include <iostream>
 
+const double CARTON_CAPACITY = 3.78;
+
 using namespace std;
 
 int main()
 {
 
     /*  */
+    double milk_amount;
+    cout << "Enter the amount of milk in liters: ";
+    cin >> milk_amount;
+
+    int cartons = static_cast<int>(milk_amount / CARTON_CAPACITY + 0.5);
+    double cost = milk_amount * 0.38;
+    double profit = cartons * 0.27;
+
+    cout << "Number of cartons: " << cartons << endl;
+    cout << "Cost: " << cost << endl;
+    cout << "Profit: " << profit << endl;
 
     cout << endl;
     cin.get();
